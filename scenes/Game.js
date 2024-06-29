@@ -4,10 +4,10 @@ export default class Game extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('player', 'imagenes/PJ.png');
-        this.load.image('enemy', 'imagenes/zombie.png');
-        this.load.image('vida', 'imagenes/vida.png');
-        this.load.image('municion', 'imagenes/municion.png');
+        this.load.image('player', './imagenes/PJ.png');
+        this.load.image('enemy', './imagenes/zombie.png');
+        this.load.image('vida', './imagenes/vida.png');
+        this.load.image('municion', './imagenes/municion.png');
         
     }
 
